@@ -25,7 +25,7 @@ Language model pretraining with next token prediction has proved effective for s
 </p>
 
 
-## Algorithms & Infrastructures
+## Algorithm & Infrastructure
 
 <div style="display: flex; justify-content: space-between;">
   <img src="images/rlllm.jpeg" alt="The Reinforcement Learning Training System for LLM" style="width: 48%;">
