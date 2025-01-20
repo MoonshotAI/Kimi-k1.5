@@ -6,7 +6,7 @@
 
 
 <p align="center">
-  <a href="https://kimi.ai/"><img src="logo/logo.jpeg" height="16" width="16" style="vertical-align:middle"> <b> Chat Link   </b></a>
+  <a href="https://kimi.ai/"><img src="logo/logo.png" height="16" width="16" style="vertical-align:middle"> <b> Chat Link   </b></a>
   <a href="k1_5.pdf"><img src="logo/report.png" height="16" width="16" style="vertical-align:middle"><b> Report Link</b></a>
 </p>
 
