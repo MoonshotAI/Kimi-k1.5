@@ -45,8 +45,10 @@ You can test Kimi k1.5 through the Kimi OpenPlatform. Fill out the test applicat
 
 Here's an example of calling Kimi k1.5
 ```python
-cli = Client(
-    api_key="$YOUR_KIMI_KEY",
+from openai import Client
+
+client = Client(
+    api_key="YOUR_KIMI_KEY",
     base_url="https://api.moonshot.ai/v1",
 )
 
@@ -57,16 +59,19 @@ messages = [
     },
 ]
 
-resp = cli.chat.completions.create(
+stream = client.chat.completions.create(
     model="kimi-k1.5-preview",
     messages=messages,
-    temperture=0.3,
+    temperature=0.3,
     stream=True,
     max_tokens=8192,
 )
 
-for chunk in resp:
-    print(chunk.choices[0].delta.content, end="")
+for chunk in stream:
+    if chunk.choices[0].delta:
+        if chunk.choices[0].delta.content:
+            print(chunk.choices[0].delta.content, end="")
+
 ```
 
 
