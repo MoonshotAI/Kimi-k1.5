@@ -1,8 +1,11 @@
 # Kimi k1.5: Scaling Reinforcement Learning with LLMs
 
+<p align="center">
+  <b>Kimi Development Team</b></a>
+</p>
 
 <div align="center" style="line-height: 1;">
-  <a href="https://kimi.moonshot.com/" target="_blank" style="margin: 2px;">
+  <a href="https://kimi.ai/" target="_blank" style="margin: 2px;">
     <img alt="Chat" src="https://img.shields.io/badge/%F0%9F%A4%96-Kimi_k1.5-blue" style="display: inline-block; vertical-align: middle;"/>
   </a>
 </div>
