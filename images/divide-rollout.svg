@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="107.04468mm"
+   height="57.80751mm"
+   viewBox="0 0 107.04468 57.80751"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker165"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path165" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker161"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M -3,3 3,-3 M 3,3 -3,-3"
+         id="path161" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="X"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1"
+         d="M -3,3 3,-3 M 3,3 -3,-3"
+         id="path160" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker156"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.45)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path156" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="marker151"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.45)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path151" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       refX="0"
+       refY="0"
+       orient="auto"
+       id="ColoredDiamond"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.45)"
+         style="fill:context-fill;fill-rule:evenodd;stroke:context-stroke;stroke-width:2"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path148" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Dot"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="path142" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-173.45121,-44.948136)">
+    <g
+       id="g2">
+      <rect
+         style="fill:#feccc6;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-opacity:1"
+         id="rect139"
+         width="46.104362"
+         height="13.33061"
+         x="189.79242"
+         y="89.292747"
+         ry="2.951479" />
+      <text
+         xml:space="preserve"
+         style="font-weight:bold;font-size:4.97099px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman,  Bold';fill:#cccccc;fill-opacity:1;stroke:#000000;stroke-width:0.116507;stroke-linecap:round;stroke-opacity:1"
+         x="198.68286"
+         y="97.255409"
+         id="text139"><tspan
+           id="tspan139"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.116507"
+           x="198.68286"
+           y="97.255409">Replay Buffer</tspan></text>
+      <rect
+         style="fill:#ddf6ff;fill-opacity:1;stroke:#000000;stroke-width:0.264583;stroke-linecap:round;stroke-opacity:1"
+         id="rect140"
+         width="56.663235"
+         height="28.331627"
+         x="184.98686"
+         y="50.95248"
+         ry="0" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Dot)"
+         d="m 185.39518,58.089211 h 55.64798"
+         id="path141" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Dot)"
+         d="m 185.39518,65.005911 h 10.84664"
+         id="path143" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Dot)"
+         d="m 199.70017,89.057161 c 0,0 -0.009,-15.74151 0,-20.7501 0.002,-0.9476 -0.20534,-2.12182 0.44913,-2.8071 0.55971,-0.58605 1.57004,-0.4935 2.38043,-0.49405 12.86049,-0.009 20.28455,0 20.28455,0"
+         id="path144" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker161)"
+         d="m 185.39518,71.975191 h 25.33925"
+         id="path145" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Dot)"
+         d="m 213.45593,89.057161 c 0,0 -0.009,-8.88821 0,-13.8968 0.002,-0.9476 -0.20534,-2.12182 0.44913,-2.8071 0.5597,-0.58605 1.57004,-0.4935 2.38043,-0.49405 12.86049,-0.009 14.21213,0 14.21213,0"
+         id="path146" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529167;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#ColoredDiamond)"
+         d="M 233.16502,71.874481 H 239.671"
+         id="path149" />
+      <rect
+         style="fill:#dcdcdc;fill-opacity:1;stroke:none;stroke-width:0.264583;stroke-linecap:round;stroke-opacity:1"
+         id="rect177"
+         width="39.685951"
+         height="13.330612"
+         x="240.80994"
+         y="89.292747"
+         ry="2.951479" />
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker151)"
+         d="m 226.53646,89.057161 c 0,0 -0.009,-15.74151 0,-20.7501 0.002,-0.9476 -0.20534,-2.12182 0.44913,-2.8071 0.55971,-0.58605 1.57004,-0.49405 2.38043,-0.49405 6.54298,0 10.07509,0 10.07509,0"
+         id="path150" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         x="213.29161"
+         y="54.815411"
+         id="text151"><tspan
+           id="tspan151"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="213.29161"
+           y="54.815411">rollout worker</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         x="178.5217"
+         y="61.657543"
+         id="text152"><tspan
+           id="tspan152"
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="178.5217"
+           y="61.657543">from</tspan><tspan
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="178.5217"
+           y="66.949203"
+           id="tspan153">promt</tspan><tspan
+           style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="178.5217"
+           y="72.240868"
+           id="tspan154">set</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         x="213.29178"
+         y="47.887489"
+         id="text155"><tspan
+           id="tspan155"
+           style="font-size:4.23333px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="213.29178"
+           y="47.887489">iteration N</tspan></text>
+      <g
+         id="g177"
+         transform="translate(0.77527457,0.39521371)">
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Dot)"
+           d="m 242.91666,91.272856 h 7.44349"
+           id="path154" />
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker156)"
+           d="m 242.56812,95.342581 h 7.44349"
+           id="path155" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+           x="261.75833"
+           y="92.361389"
+           id="text156"><tspan
+             id="tspan156"
+             style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+             x="261.75833"
+             y="92.361389">normal stop</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+           x="262.49042"
+           y="95.944939"
+           id="text157"><tspan
+             id="tspan157"
+             style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+             x="262.49042"
+             y="95.944939">cut by length</tspan></text>
+        <path
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#X)"
+           d="m 242.69104,99.440054 h 7.44349"
+           id="path158" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.52778px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+           x="265.47559"
+           y="100.04241"
+           id="text158"><tspan
+             id="tspan158"
+             style="font-size:3.52778px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+             x="265.47559"
+             y="100.04241">repeat, early stop</tspan></text>
+      </g>
+      <path
+         style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.529;stroke-linecap:square;stroke-dasharray:1.058, 1.058;stroke-dashoffset:0.529;stroke-opacity:1;marker-end:url(#marker165)"
+         d="m 242.61012,65.033641 4.78577,7.3e-4 c 0,0 1.034,-0.20932 1.45903,0.21664 0.43042,0.43135 0.34252,1.6117 0.34252,1.6117 l -0.0266,13.41505 c 0,0 0.12957,1.20991 -0.35073,1.68904 -0.46887,0.46774 -1.64065,0.3458 -1.64065,0.3458 l -14.10748,-0.002 c 0,0 -1.09043,-0.18418 -1.53256,0.25934 -0.36706,0.3682 -0.34107,1.30007 -0.34107,1.30007 l 0.017,5.16187"
+         id="path162" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:1.058, 1.058;stroke-dashoffset:0.529;stroke-opacity:1"
+         d="m 242.31616,71.768491 h 6.9287"
+         id="path166" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         x="255.1387"
+         y="67.511406"
+         id="text168"><tspan
+           style="text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="255.1387"
+           y="67.511406"
+           id="tspan170">save for </tspan><tspan
+           style="text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="255.1387"
+           y="72.80307"
+           id="tspan171">partial rollout</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Times New Roman';-inkscape-font-specification:'Times New Roman, ';text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902;stroke-linecap:square;stroke-dasharray:none;stroke-opacity:1"
+         x="175.21344"
+         y="87.142166"
+         id="text173"><tspan
+           style="text-align:start;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.528902"
+           x="175.21344"
+           y="87.142166"
+           id="tspan173">partial rollout</tspan></text>
+    </g>
+  </g>
+</svg>

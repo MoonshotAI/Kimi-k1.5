@@ -18,8 +18,28 @@ Language model pretraining with next token prediction has proved effective for s
 
 ## Model Performances
 
+- add figures here and a summary of the performance
+
 
 ## Algorithms & Infrastructures
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/llmrl-overview.svg" alt="The Reinforcement Learning Training System for LLM" style="width: 48%;">
+  <img src="images/divide-rollout.svg" alt="图像2" style="width: 48%;">
+</div>
+
+### Policy Optimization
+
+- Objective: Train a policy model $\pi_\theta$ to solve problems using a sequence of intermediate steps (Chain of Thought, CoT).
+- Policy Optimization: Apply online policy mirror descent to iteratively improve the policy by solving a relative entropy regularized optimization problem.
+- Surrogate Loss: Use off-policy data to approximate the reward and update the policy using gradient descent.
+
+### Large Scale RL System
+- Iterative Process: Each iteration involves a rollout phase and a training phase.
+  - Rollout Phase: Rollout workers generate trajectories by interacting with the model and store them in a replay buffer.
+  - Training Phase: Trainer workers use the stored trajectories to update the model's weights.
+- Divide Rollout Technique: Manage long and short trajectories by setting a fixed token budget for each rollout. Unfinished long trajectories are saved and continued in the next iteration, ensuring efficient use of computational resources.
+
 
 ## Test Model by API
 You can test Kimi k1.5 through the Kimi OpenPlatform. Fill out the test application form in [this link](https://forms.gle/TqZ9XQnPiJPddzhV8). We will contact you via email to provide a test account later.
