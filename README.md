@@ -28,8 +28,8 @@ Language model pretraining with next token prediction has proved effective for s
 ## Key Ingredients of Kimi k1.5
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="images/rlllm.jpeg" alt="The Reinforcement Learning Training System for LLM" style="width: 48%;">
-  <img src="images/dividerollout.jpeg" alt="图像2" style="width: 48%;">
+  <img src="images/system.png" alt="The Reinforcement Learning Training System for LLM" style="width: 100%;">
+  <!-- <img src="images/dividerollout.jpeg" alt="图像2" style="width: 48%;"> -->
 </div>
 
 There are a few key ingredients about the design and training of k1.5.
