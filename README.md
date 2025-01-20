@@ -32,7 +32,6 @@ Language model pretraining with next token prediction has proved effective for s
 
 - Objective: Train a policy model $\pi_\theta$ to solve problems using a sequence of intermediate steps (Chain of Thought, CoT).
 - Policy Optimization: Apply online policy mirror descent to iteratively improve the policy by solving a relative entropy regularized optimization problem.
-- Surrogate Loss: Use off-policy data to approximate the reward and update the policy using gradient descent.
 
 ### Large Scale RL-LLM System
 - Iterative Process: Each iteration involves a rollout phase and a training phase.
