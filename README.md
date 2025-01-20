@@ -25,23 +25,20 @@ Language model pretraining with next token prediction has proved effective for s
 </p>
 
 
-## Algorithm & Infrastructure
+## Key Ingredients of Kimi k1.5
 
 <div style="display: flex; justify-content: space-between;">
   <img src="images/rlllm.jpeg" alt="The Reinforcement Learning Training System for LLM" style="width: 48%;">
   <img src="images/dividerollout.jpeg" alt="图像2" style="width: 48%;">
 </div>
 
-### Policy Optimization for RL-LLM
+There are a few key ingredients about the design and training of k1.5.
 
-- Objective: Train a policy model $\pi_\theta$ to solve problems using a sequence of intermediate steps (Chain of Thought, CoT).
-- Policy Optimization: Apply online policy mirror descent to iteratively improve the policy by solving a relative entropy regularized optimization problem.
 
-### Large Scale RL-LLM System
-- Iterative Process: Each iteration involves a rollout phase and a training phase.
-  - Rollout Phase: Rollout workers generate trajectories by interacting with the model and store them in a replay buffer.
-  - Training Phase: Trainer workers use the stored trajectories to update the model's weights.
-- Partial Rollout Technique: Manage long and short trajectories by setting a fixed token budget for each rollout. Unfinished long trajectories are saved and continued in the next iteration, ensuring efficient use of computational resources.
+- **Long context scaling**. We scale the context window of RL to 128k and observe continued improvement of performance with an increased context length. A key idea behind our approach is to use partial rollouts to improve training efficiency---i.e., sampling new trajectories by reusing a large chunk of previous trajectories, avoiding the cost to re-generate the new trajectories from scratch. Our observation identifies the context length as a key dimension of the continued scaling of RL with LLMs.
+- **Improved policy optimization**. We derive a formulation of RL with long-CoT and employ a variant of online mirror descent for robust policy optimization. This algorithm is further improved by our effective sampling strategy, length penalty, and optimization of the data recipe.
+- **Simplistic Framework**. Long context scaling, combined with the improved policy optimization methods, establishes a simplistic RL framework for learning with LLMs. Since we are able to scale the context length, the learned CoTs exhibit the properties of planning, reflection, and correction. An increased context length has an effect of increasing the number of search steps. As a result, we show that strong performance can be achieved without relying on more complex techniques such as Monte Carlo tree search, value functions, and process reward models.
+- **Mutimodalities**. Our model is jointly trained on text and vision data, which has the capabilities of jointly reasoning over the two modalities.
 
 
 <!-- ## Test Model by API
