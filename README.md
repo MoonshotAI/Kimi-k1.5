@@ -1,8 +1,5 @@
 # Kimi k1.5: Scaling Reinforcement Learning with LLMs
 
-<p align="center">
-  <b>Kimi Development Team</b></a>
-</p>
 
 <div align="center" style="line-height: 1;">
   <a href="https://kimi.moonshot.com/" target="_blank" style="margin: 2px;">
