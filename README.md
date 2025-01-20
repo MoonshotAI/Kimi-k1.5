@@ -21,6 +21,34 @@ Language model pretraining with next token prediction has proved effective for s
 
 ## Algorithms & Infrastructures
 
+## Test Model by API
+You can test Kimi k1.5 through the Kimi OpenPlatform. Fill out the test application form in [this link](https://forms.gle/TqZ9XQnPiJPddzhV8). We will contact you via email to provide a test account later.
+
+Here's an example of calling Kimi k1.5
+```python
+cli = Client(
+  api_key = "$YOUR_KIMI_KEY",
+  base_url = "https://api.moonshot.ai/v1",
+)
+
+messages = [
+    {
+        "role": "user",
+        "content": "一个直角三角形的两条直角边的长度分别是3厘米和4厘米。求这个直角三角形的斜边长度。"
+    },
+]
+
+resp = cli.chat.completions.create(
+  model="kimi-k1.5-preview",
+  messages=messages,
+  temperture=0.3,
+  stream=True,
+})
+
+for chunk in resp:
+  print(chunk.choices[0].delta.content, end=""))
+```
+
 
 ## Citation
 
