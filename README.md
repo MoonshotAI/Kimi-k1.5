@@ -5,7 +5,7 @@
 # Kimi k1.5: Scaling Reinforcement Learning with LLMs
 
 <p align="center">
-  <b>Kimi Development Team</b></a>
+  <b>the Kimi Team</b></a>
 </p>
 
 
@@ -55,7 +55,7 @@ for chunk in resp:
 
 ```
 @article{MoonshotAI,
-  author = {Kimi Development Team},
+  author = {the Kimi Team},
   title = {Kimi k1.5: Scaling Reinforcement Learning with LLMs},
   year = {2025},
 }
