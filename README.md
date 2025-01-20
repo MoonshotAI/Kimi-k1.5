@@ -8,7 +8,6 @@
   <b>Kimi Team</b></a>
 </p>
 
-
 <p align="center">
   <a href="Kimi_k1.5.pdf"><img src="images/logo.png" height="16" width="16" style="vertical-align:middle"><b> Report</b></a>
 </p>
