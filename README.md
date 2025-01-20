@@ -28,13 +28,13 @@ Language model pretraining with next token prediction has proved effective for s
   <img src="images/divide-rollout.svg" alt="图像2" style="width: 48%;">
 </div>
 
-### Policy Optimization
+### Policy Optimization for RL-LLM
 
 - Objective: Train a policy model $\pi_\theta$ to solve problems using a sequence of intermediate steps (Chain of Thought, CoT).
 - Policy Optimization: Apply online policy mirror descent to iteratively improve the policy by solving a relative entropy regularized optimization problem.
 - Surrogate Loss: Use off-policy data to approximate the reward and update the policy using gradient descent.
 
-### Large Scale RL System
+### Large Scale RL-LLM System
 - Iterative Process: Each iteration involves a rollout phase and a training phase.
   - Rollout Phase: Rollout workers generate trajectories by interacting with the model and store them in a replay buffer.
   - Training Phase: Trainer workers use the stored trajectories to update the model's weights.
