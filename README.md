@@ -41,7 +41,7 @@ Language model pretraining with next token prediction has proved effective for s
 - Iterative Process: Each iteration involves a rollout phase and a training phase.
   - Rollout Phase: Rollout workers generate trajectories by interacting with the model and store them in a replay buffer.
   - Training Phase: Trainer workers use the stored trajectories to update the model's weights.
-- Divide Rollout Technique: Manage long and short trajectories by setting a fixed token budget for each rollout. Unfinished long trajectories are saved and continued in the next iteration, ensuring efficient use of computational resources.
+- Partial Rollout Technique: Manage long and short trajectories by setting a fixed token budget for each rollout. Unfinished long trajectories are saved and continued in the next iteration, ensuring efficient use of computational resources.
 
 
 ## Test Model by API
