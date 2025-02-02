@@ -46,41 +46,6 @@ There are a few key ingredients about the design and training of k1.5.
 - **Mutimodalities**. Our model is jointly trained on text and vision data, which has the capabilities of jointly reasoning over the two modalities.
 
 
-## Test Model by API
-You can test Kimi k1.5 through the Kimi OpenPlatform. Fill out the test application form in [this link](https://forms.gle/TqZ9XQnPiJPddzhV8). We will contact you via email to provide a test account later.
-
-Here's an example of calling Kimi k1.5
-```python
-from openai import Client
-
-client = Client(
-    api_key="YOUR_KIMI_KEY",
-    base_url="https://api.moonshot.ai/v1",
-)
-
-messages = [
-    {
-        "role": "user",
-        "content": "The lengths of the two legs of a right triangle are 3 cm and 4 cm respectively. Find the length of the hypotenuse of this right triangle.",
-    },
-]
-
-stream = client.chat.completions.create(
-    model="kimi-k1.5-preview",
-    messages=messages,
-    temperature=0.3,
-    stream=True,
-    max_tokens=8192,
-)
-
-for chunk in stream:
-    if chunk.choices[0].delta:
-        if chunk.choices[0].delta.content:
-            print(chunk.choices[0].delta.content, end="")
-
-```
-
-
 
 ## Citation
 
