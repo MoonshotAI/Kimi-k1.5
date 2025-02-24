@@ -50,9 +50,10 @@ There are a few key ingredients about the design and training of k1.5.
 ## Citation
 
 ```
-@article{MoonshotAI,
-  author = {Kimi Team},
-  title = {Kimi k1.5: Scaling Reinforcement Learning with LLMs},
-  year = {2025},
+@article{team2025kimi,
+  title={Kimi k1. 5: Scaling reinforcement learning with llms},
+  author={Team, Kimi and Du, Angang and Gao, Bofei and Xing, Bowei and Jiang, Changjiu and Chen, Cheng and Li, Cheng and Xiao, Chenjun and Du, Chenzhuang and Liao, Chonghua and others},
+  journal={arXiv preprint arXiv:2501.12599},
+  year={2025}
 }
 ```
